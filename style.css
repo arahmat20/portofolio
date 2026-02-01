@@ -64,7 +64,7 @@ section::before {
 .work-img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: "work-1 work-2" " work-3 work-3";
+  grid-template-areas: "login home" " barang barang";
   gap: 16px;
 }
 .work-img img {
