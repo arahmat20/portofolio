@@ -45,7 +45,7 @@ section::before {
   animation: 2s upDown infinite;
 }
 .about::before {
-  content: "About";
+  content: "Experience";
 }
 .about-exp-item {
   margin-top: 32px;
@@ -59,7 +59,7 @@ section::before {
   display: none;
 }
 .work::before{
-  content:"Work";
+  content:"Project";
 }
 .work-img{
   display: grid;
@@ -93,19 +93,19 @@ section::before {
   grid-area: work-1;
 }
 #work-1:hover::after{
-content: " Web Project";
+content: " Login";
 }
 #work-2{
   grid-area: work-2;
 }
 #work-2:hover::after{
-  content: " Web Project";
+  content: " Home";
   }
 #work-3{
   grid-area: work-3;
 }
 #work-3:hover::after{
-  content: " Web Project";
+  content: " Data barang";
   }
   .contact{
     padding-bottom: 128px;
