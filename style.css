@@ -96,13 +96,13 @@ section::before {
   content: " Login";
 }
 #work-2 {
-  grid-area: work-2;
+  grid-area: home;
 }
 #work-2:hover::after {
   content: " Home";
 }
 #work-3 {
-  grid-area: work-3;
+  grid-area: barang;
 }
 #work-3:hover::after {
   content: " Data barang";
