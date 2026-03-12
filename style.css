@@ -62,14 +62,17 @@ section::before {
   display: none;
 }
 .work::before {
-  content: "Project";
+  content: " My Project";
 }
+
+
 .work-img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas: "login home" " barang barang";
   gap: 16px;
 }
+
 .work-img img {
   width: 100%;
 }
@@ -110,6 +113,29 @@ section::before {
 #work-3:hover::after {
   content: " Data barang";
 }
+
+
+
+#work-4 {
+  grid-area: login;
+}
+#work-4:hover::after {
+  content: " Home";
+}
+#work-5 {
+  grid-area: home;
+}
+#work-5:hover::after {
+  content: " Office";
+}
+#work-6 {
+  grid-area: barang;
+}
+#work-6:hover::after {
+  content: " Detail Office";
+}
+
+
 .contact {
   padding-bottom: 128px;
 }
